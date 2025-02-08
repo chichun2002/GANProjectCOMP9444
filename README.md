@@ -1,13 +1,7 @@
 # Unpaired Image to Image Translation on Video Game Graphics
 
 ---
-
-| Melanie Daixing |
-| Tristan Fischer |
-| Calvin Liu      |
-| Leon Xu         |
-| Guozhi Zhao     |
-
+Melanie Daixing, Tristan Fischer, Calvin Liu, Leon Xu, Guozhi Zhao
 ---
 
 ## 1 Introduction
