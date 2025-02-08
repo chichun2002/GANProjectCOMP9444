@@ -2,8 +2,6 @@
 
 ---
 
-| Name            |
-|-----------------|
 | Melanie Daixing |
 | Tristan Fischer |
 | Calvin Liu      |
