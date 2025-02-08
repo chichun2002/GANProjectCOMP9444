@@ -2,15 +2,13 @@
 
 ---
 
-### Group Name: Some Group
-
-| Name            | Student ID |
-|-----------------|------------|
-| Melanie Daixing | z5419027   |
-| Tristan Fischer | z5310974   |
-| Calvin Liu      | z5367106   |
-| Leon Xu         | z5361413   |
-| Guozhi Zhao     | z5319307   |
+| Name            |
+|-----------------|
+| Melanie Daixing |
+| Tristan Fischer |
+| Calvin Liu      |
+| Leon Xu         |
+| Guozhi Zhao     |
 
 ---
 
