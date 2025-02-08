@@ -18,7 +18,9 @@
 
 ### 1.1 Background
 
-The visual style of older games often appears dated due to historical hardware limitations. Traditional enhancement methods require costly redesigns. Our project explores AI-driven approaches to modernize visuals without full redesigns.
+The visual style of older games can often appear dated and low in quality due to the technical limits of computer hardware being unable to create high-end visual scenery and graphics at the time. As a result, many older games often feature pixelated textures, low-resolution assets, simplified visual effects and a dimmer, less vibrant design.
+
+Traditional methods of improving the graphics quality of older games involve completely redesigning the game, which can be extremely time consuming and expensive. Our project attempts to use an approach that utilises AI that enhances the visual appeal of older games without completely redesigning them.
 
 ### 1.2 Motivation
 
@@ -26,7 +28,7 @@ With rising expectations for visual immersion, we aim to transfer modern game st
 
 ### 1.3 Problem Statement
 
-We enhance visuals of *Counter Strike 1.6* (2003) using style transfer from *Valorant* (2020), analyzing results from different methods.
+Our objective for this project is to enhance the visual aesthetics of computer games designed in the early 2000s by using style transfer methods on more modern games designed around 20 years later. We will be analysing the accuracy of the results obtained from using different methods on the same dataset. Specifically, we have chosen to enhance the visuals of Counter Strike 1.6 (released in 2003) by using style transfer methods on Valorant (released in 2020).
 
 ---
 
@@ -184,8 +186,10 @@ python train.py --dataroot="path/to/dataset" --batch_size 1 --n_epochs 20 --n_ep
 
 ## 6 References
 
-- Zhu et al. (2017). *Unpaired Image-to-Image Translation with CycleGAN*.  
-- Park et al. (2020). *Contrastive Learning for Unpaired Translation*.  
-- Xie et al. (2022). *DECENT: Density Regularization for Image Translation*.  
-- Kim et al. (2023). *UNSB: Neural Schrödinger Bridge for Image Translation*.
+- Zhu, J.Y., Park, T., Isola, P. and Efros, A.A., 2017. Unpaired image-to-image translation using cycle-consistent adversarial networks. In Proceedings of the IEEE international conference on computer vision (pp. 2223-2232)*.
+- Park, T., Efros, A.A., Zhang, R. and Zhu, J.Y., 2020. Contrastive learning for unpaired image-to-image translation. In Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part IX 16 (pp. 319-345). Springer International Publishing*.
+- Xie, S., Ho, Q. and Zhang, K., 2022. Unsupervised image-to-image translation with density changing regularization. Advances in Neural Information Processing Systems, 35, pp.28545-28558*.
+- Kim, B., Kwon, G., Kim, K. and Ye, J.C., 2023. Unpaired Image-to-Image Translation via Neural Schrödinger Bridge. arXiv preprint arXiv:2305.15086. *Betzalel, E., Penso, C., Navon, A. and Fetaya, E., 2022. A study on the evaluation of generative models. arXiv preprint arXiv:2206.10935*.
+- Lucic, M., Kurach, K., Michalski, M., Gelly, S. and Bousquet, O., 2018. Are gans created equal? a large-scale study. Advances in neural information processing systems, 31*.
+- Unterthiner, T., Van Steenkiste, S., Kurach, K., Marinier, R., Michalski, M. and Gelly, S., 2018. Towards accurate generative models of video: A new metric & challenges. arXiv preprint arXiv:1812.01717*.
 ```
